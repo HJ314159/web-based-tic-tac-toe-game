@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #1A1A2E;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1{
+    position: absolute;
+    top: 2.5em;
+    color: white;
+}
+
+.wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15em;
+}
+
+.board {
+    height: 50vh;
+    width: 25vw;
+    margin: 0 auto;
+    outline: 5px solid #C7C7C7; 
+    display:flex;
+}
+
+.cell{
+    height: 16.67vh;
+    width: 8.34vw;
+    outline: 2.5px solid #C7C7C7;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .player{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+.player-o{
+    height: 12em;
+    width: 11em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+} 
+
+.player-x{
+    height: 12em;
+    width: 11em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+h3{
+    color: white;
+    font-size: 2rem;
+}
+
+.fa-circle{
+    color: #FF2E63;
+}
+
+.fa-xmark{
+    color:#00ADB5;
+}
+
+button{
+    font-weight: 400;
+}
+
+#reset-btn{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    height: 4em;
+    width: 11em;
+    position:absolute;
+    bottom: 7em;
+    font-size: 1rem;
+    color: #1A1A2E;
+}
