@@ -41,13 +41,6 @@ h1{
     align-items: center;
 }
 
-/* .player{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-} */
-
 .player-o{
     height: 12em;
     width: 11em;

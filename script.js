@@ -53,19 +53,6 @@ resetBtn.addEventListener("click", function () {
 function playerMoved(event) {
     if (gameEnd === false){
         move++;
-        // if (move === 1){
-        //     if (move % 2 === 1) {
-        //         createIconInCell(event.target, "fa-circle fa-solid fa-7x");
-        //         playerOMessage.innerHTML = "Waiting...";
-        //         playerXMessage.innerHTML = "Waiting...";
-        //     } else {
-        //         createIconInCell(event.target, "fa-xmark fa-solid fa-8x");
-        //         playerX.style.border = 0;
-        //         playerO.style.border = "5px solid white";
-        //         playerXMessage.innerHTML = "Waiting...";
-        //         playerOMessage.innerHTML = "Waiting...";
-        //     }
-        // }
         if (move % 2 === 1) {
             createIconInCell(event.target, "fa-circle fa-solid fa-7x");
             playerO.style.border = 0;
