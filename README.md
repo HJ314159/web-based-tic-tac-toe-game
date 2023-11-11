@@ -11,13 +11,8 @@ This web-based tic-tac-toe game is a fun and interactive way to play the classic
 ## Usage
 To play the tic-tac-toe game, follow these steps:
 
-1. Visit the game website or open the web page where the game is hosted.
-2. You will see a 3x3 grid representing the tic-tac-toe board.
-3. Two players take turns to click on empty cells in the grid.
-4. The game will automatically detect wins and draws.
-5. When the game ends, you can click the "Reset" button to start a new round.
-6. Enjoy the sleek and stylish design of the game while testing your tic-tac-toe skills.
-
-The game is responsive and adjusts to screens of all sizes, so you can play on both desktop and mobile devices.
-
-Have fun playing this web-based tic-tac-toe game!
+1. You will see a 3x3 grid representing the tic-tac-toe board.
+2. Two players take turns to click on empty cells in the grid.
+3. The game will automatically detect wins and draws.
+4. When the game ends, you can click the "Reset" button to start a new round.
+5. Enjoy the sleek and stylish design of the game while testing your tic-tac-toe skills.
